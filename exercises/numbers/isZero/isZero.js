@@ -5,6 +5,8 @@
  * @returns {boolean} True if num is 0 and false otherwise
  */
 function isZero(num) {
+
+  //return the variable value //
   return num === 0;
 }
 

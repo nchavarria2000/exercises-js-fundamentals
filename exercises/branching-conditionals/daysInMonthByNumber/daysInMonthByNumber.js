@@ -19,8 +19,11 @@ function daysInMonthByNumber(monthNum) {
   if (!Number.isInteger(monthNum) || monthNum < 1 || monthNum > 12) {
     throw new Error(`Expected a month number from 1-12, received: ${monthNum}`);
   }
+  else if (monthNum === 1 || monthNum === 3 || monthNum === 5 || monthNum === 7 || monthNum === 8 || monthNum ===10 || monthNum===12)
+
 
   // This is your job. :)
+
 }
 
 if (require.main === module) {
